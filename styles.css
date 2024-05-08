@@ -1,0 +1,31 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.page-header{
+    background-color: #43281c;
+    height: 73px;
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.website-logo{
+    height: 25px;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    top:3px;
+   
+
+}
+.page-header h1{
+    color: #fbf2c0;
+    font-size: 25px;
+    font-weight: bold;
+}
