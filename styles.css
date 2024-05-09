@@ -2,6 +2,7 @@ body{
     font-family: 'Open Sans', sans-serif;
     margin: 0;
     padding: 0;
+    background-color: #efefef;;
 }
 .page-header{
     background-color: #43281c;
@@ -28,4 +29,70 @@ body{
     color: #fbf2c0;
     font-size: 25px;
     font-weight: bold;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+    padding: 10px
+    column-gap: 30px;
+    row-gap: 30px;
+   
+
+}
+
+.order-box{
+    background-color: #eee1d5;
+    height: 362px;
+    margin: 20px;
+    border-radius: 20px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+.order-box-title{
+    color: #43281c;
+    padding: 20px;
+    font-weight: normal;
+    font-size: 15px;
+}
+.payment-box{
+    background-color: #eee1d5;
+    height: 362px;
+    margin: 20px;
+    border-radius: 20px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+
+}
+
+.items{
+    list-style-type: none;
+    
+}
+
+.item{
+    display: grid;
+    grid-template-columns: 76.5px 612fr 76.5fr;
+    border-bottom:burlywood 2px solid;
+    margin-right: 10px;
+    padding: 3px;
+
+}
+.item-flavour{
+    font-weight: bold;
+}
+.item-price{
+    font-weight: bold;
+    text-align: right;
+    padding-right: 10px;
+
+}
+.order-addons{
+    list-style-type: none;
+    width:612px;
+    position: relative;
+    left: 26px;
+    margin: 10px;
+    color:#B08968;
+}
+.item:last-child {
+    border-bottom: none;
 }
