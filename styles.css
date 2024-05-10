@@ -34,7 +34,7 @@ body{
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 10px;
-    padding: 10px
+    padding: 10px;
     column-gap: 30px;
     row-gap: 30px;
    
@@ -71,19 +71,15 @@ body{
 .item{
     display: grid;
     grid-template-columns: 76.5px 612fr 76.5fr;
-    border-bottom:burlywood 2px solid;
-    margin-right: 10px;
-    padding: 3px;
+    border-bottom:burlywood 3px solid;
+    margin: 10px;
 
 }
 .item-flavour{
     font-weight: bold;
 }
 .item-price{
-    font-weight: bold;
-    text-align: right;
-    padding-right: 10px;
-
+    font-weight:bold;
 }
 .order-addons{
     list-style-type: none;
@@ -93,6 +89,21 @@ body{
     margin: 10px;
     color:#B08968;
 }
-.item:last-child {
+.item:last-child{
     border-bottom: none;
+}
+.name-card-box{
+    background-color: #eee1d5;
+    height: 141.5px;
+    margin: 20px;
+    border-radius: 20px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+.payment-card{
+    background-color: #eee1d5;
+    height: 203.5px;
+    margin: 20px;
+    border-radius: 20px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+
 }
