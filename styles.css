@@ -34,7 +34,7 @@ body{
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 10px;
-    padding: 10px;
+    padding: 20px;
     column-gap: 30px;
     row-gap: 30px;
    
@@ -43,16 +43,19 @@ body{
 
 .order-box{
     background-color: #eee1d5;
-    height: 362px;
+    
     margin: 20px;
     border-radius: 20px;
     box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
 }
 .order-box-title{
     color: #43281c;
-    padding: 20px;
+    padding: 0;
     font-weight: normal;
     font-size: 15px;
+    margin-left: 45px;
+    margin-top: 20px;
+    margin-bottom: 30px;
 }
 .payment-box{
     background-color: #eee1d5;
@@ -92,12 +95,15 @@ body{
 .item:last-child{
     border-bottom: none;
 }
+
 .name-card-box{
     background-color: #eee1d5;
-    height: 141.5px;
-    margin: 20px;
     border-radius: 20px;
     box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    padding: 20px;
+    margin: 0;
+    margin-bottom: 33px;
+    position: block-inline;
 }
 .payment-card{
     background-color: #eee1d5;
@@ -106,4 +112,40 @@ body{
     border-radius: 20px;
     box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
 
+}
+
+
+  .example-input {
+    background-color: rgba(0,0,0,0);
+    border-color: #885a2d;
+    padding: 8px;
+    border-radius: 5px;
+    left: 20px;
+    width: 95%;
+    border-radius: 100px;
+  }
+
+  .input-label {
+    background-color: #eee1d5;
+    color: #885a2d;
+    font-size: 11px;
+    position: absolute;
+    left: 902px;
+    top: 152px;
+    padding: 0 2px;
+  }
+
+.order-box{
+    margin: 0;
+}
+.payment-card{
+    margin: 0;
+
+}
+
+.name-box-title{
+    color: #43281c;
+    padding: 0;
+    font-weight: normal;
+    font-size: 15px;
 }
