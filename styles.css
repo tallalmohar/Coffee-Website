@@ -132,7 +132,7 @@ body{
     position: absolute;
     left: 700px;
     top: 152px;
-    padding: 0 2px;
+    padding: 0 4px;
   }
 
 .order-box{
@@ -179,26 +179,28 @@ body{
     position: absolute;
     left: 700px;
     top: 309px;
-    padding: 0 2px;
+    padding: 0 4px;
   }
 
-  .example-input-payment{
+  .example-input-CCV{
     background-color: rgba(0,0,0,0);
     border-color: #885a2d;
     padding: 8px;
     border-radius: 5px;
     left: 20px;
-    width: 95%;
+    width: 29%;
     border-radius: 100px;
+    margin: 20px;
+    margin-left: 0;
   }
 
-  .input-label-payment {
+  .input-label-CCV {
     background-color: #eee1d5;
     color: #885a2d;
     font-size: 11px;
     position: absolute;
     left: 700px;
-    top: 309px;
-    padding: 0 2px;
+    top: 365px;
+    padding: 0 4px;
   }
 
